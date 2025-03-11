@@ -1,7 +1,8 @@
 body {
-    font-family: Arial, sans-serif;
+    font-family:'Roboto';
     box-sizing:border-box;
     background-color: rgb(255, 255, 255);
+    position: absolute;
 }
 header {
     display: flex;
@@ -25,20 +26,22 @@ ul {
     display: flex;
     align-items: center;
     margin-bottom: 80px;
+    margin-left: 250px;
 }
 .text {
     flex: 1;
     padding-right:20px;
-    margin-bottom: 10px;
+    margin-top: 225px;
 }
 .hello-image {
     flex: 1;
 }
 .hello-image img {
     width: 90%;
-    margin-bottom:300px;
-    height: 700px;
+    margin-top:100px;
+    height: 600px;
     border-radius: 10px;
+    background-color: white;
 }
 .text h1 {
     font-size: 4em;
@@ -72,6 +75,7 @@ ul {
     display: flex;
     align-items: center;
     gap:10px;
+    color: white;
 }
 .data{
     display: flex;
@@ -83,7 +87,8 @@ ul {
     gap:80px;
     font-size: 60px;
     margin-bottom: 80px;
-    margin-top: -290px;
+    margin-top: 200px;
+    margin-left: 250px;
 }
 .seller {
     padding: 30px;
@@ -95,6 +100,7 @@ ul {
 .seller h2 {
     font-size: 2em;
     margin-bottom: 30px;
+    margin-left: 250px;
 }
 .product {
     display: flex;
@@ -133,6 +139,7 @@ ul {
     padding: 20px;
     text-align: center;
     background-color: #f9f9f9;
+    margin-left:250px;
 }
 .space h2 {
     font-size: 2em;
@@ -157,6 +164,7 @@ ul {
     display: flex;
     gap:100px;
     padding-bottom:100px;
+    margin-left: 300px;
 
 }
 .trendy-img{
@@ -180,8 +188,18 @@ ul {
 }
 .guarantee{
     display: flex;
-    gap:30px;
-    margin-left: 300px;
+    gap:50px;
+    margin-left: 350px;
+}
+.guarantee h2{
+    font-size: 1em;
+}
+.guarantee img{
+    background-color: #555;
+    width:200px;
+    height: 250px;
+    border-radius: 5px;
+    
 }
 .guar{
     text-align: center;
@@ -192,9 +210,9 @@ ul {
 }
 .reviews{
     display: flex;
-    gap:400px;
+    gap:350px;
     padding: 60px;
-
+    margin-left: 50px;
 }
 .head{
     margin-bottom: 120px;
@@ -211,18 +229,26 @@ ul {
 }
 .testimony{
     display: flex;
+    
 }
+#tutorial{
+    font-size: 20px;
+}
+#test p{
+    font-size: larger;
+}
+
 .head{
     text-align: center;
     padding: 20px;
 }
 .row{
     display:flex;
-    gap:500px;
+    gap:525px;
 }
 .footer{
     display: flex;
-    gap:70px;
+    gap:200px;
     margin-left: 300px;
     padding:50px;
 }
@@ -232,4 +258,29 @@ ul {
     margin-bottom: 100px;
     margin-top: 50px;
     margin-left: 350px;
+}
+.shape{
+    height: 600px;
+    width:300px;
+    border-radius: 80px;
+    background-color: #555;
+    margin-left:1400px;
+    transform:rotate(100deg);
+    margin-top: -100px;
+    margin-right: -5000px;
+    z-index: -100;
+}
+.shape{
+    width: 600px;
+    background-color: #474747;
+    height: 500px;
+    right: 0;
+    top: 0%;
+    border-radius: 50px;
+    transform: rotate(-35deg);
+    z-index: -1;
+    position: absolute;
+    margin-top: -10%;
+    margin-right: -10%;
+    overflow: hidden;
 }
