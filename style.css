@@ -94,7 +94,6 @@ ul {
     padding: 30px;
     text-align: left;
     margin-bottom: 50px;
-    
 
 }
 .seller h2 {
@@ -223,6 +222,7 @@ ul {
 #america{
     width:40px;
     height: 60px;
+    border-radius: 5px;
 }
 .reviews p{
     font-size: 25px;
@@ -259,17 +259,7 @@ ul {
     margin-top: 50px;
     margin-left: 350px;
 }
-.shape{
-    height: 600px;
-    width:300px;
-    border-radius: 80px;
-    background-color: #555;
-    margin-left:1400px;
-    transform:rotate(100deg);
-    margin-top: -100px;
-    margin-right: -5000px;
-    z-index: -100;
-}
+
 .shape{
     width: 600px;
     background-color: #474747;
@@ -283,4 +273,7 @@ ul {
     margin-top: -10%;
     margin-right: -10%;
     overflow: hidden;
+}
+.border{
+    border-style: dotted;
 }
