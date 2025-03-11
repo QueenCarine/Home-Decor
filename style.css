@@ -2,7 +2,10 @@ body {
     font-family:'Roboto';
     box-sizing:border-box;
     background-color: rgb(255, 255, 255);
-    position: absolute;
+    position:absolute;
+    max-width: fit-content;
+    max-height: fit-content;
+    margin-right: 50px;
 }
 header {
     display: flex;
@@ -35,8 +38,10 @@ ul {
 }
 .hello-image {
     flex: 1;
+    
 }
 .hello-image img {
+    max-width: 100%;
     width: 90%;
     margin-top:100px;
     height: 600px;
@@ -90,6 +95,9 @@ ul {
     margin-top: 200px;
     margin-left: 250px;
 }
+.companies img{
+    max-width: 100%;
+}
 .seller {
     padding: 30px;
     text-align: left;
@@ -109,6 +117,7 @@ ul {
  
 }
 .item {
+    max-width: 100%;
     width: 250px;
     padding: 20px;
     border: 1px solid #ddd;
@@ -121,6 +130,7 @@ ul {
     height: auto;
     border-radius: 8px;
     margin-bottom: 10px;
+    max-width: 100%;
 }
 .item h3 {
     font-size: 1.2em;
@@ -159,12 +169,18 @@ ul {
     margin-bottom: 200px;
 
 }
+.transit img{
+    max-width: 100%;
+}
 .tranit{
     display: flex;
     gap:100px;
     padding-bottom:100px;
     margin-left: 300px;
 
+}
+.tranit img{
+    max-width: 100%;
 }
 .trendy-img{
    margin-left: 200px;
@@ -198,6 +214,7 @@ ul {
     width:200px;
     height: 250px;
     border-radius: 5px;
+    max-width: 100%;
     
 }
 .guar{
@@ -218,11 +235,13 @@ ul {
 }
 .imgg{
     margin-left: 200px;
+    max-width: 100%;
 }
 #america{
     width:40px;
     height: 60px;
     border-radius: 5px;
+    max-width: 100%;
 }
 .reviews p{
     font-size: 25px;
